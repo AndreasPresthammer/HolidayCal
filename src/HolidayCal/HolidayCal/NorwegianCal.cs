@@ -133,14 +133,15 @@ namespace HolidayCal
 		/// </summary>
 		private DateTime GetEasterSunday(int year)
 		{
-			if (year < 1 || year > 9999) throw new ArgumentOutOfRangeException("year", year, "Must be between 0001 and 9999.");
+			if (year < 1 || year > 9999) 
+				throw new ArgumentOutOfRangeException("year", year, "Must be between 0001 and 9999.");
 
-			int g = year % 19;
-			int c = year / 100;
-			int h = h = (c - (int)(c / 4) - (int)((8 * c + 13) / 25) + 19 * g + 15) % 30;
-			int i = h - (int)(h / 28) * (1 - (int)(h / 28) * (int)(29 / (h + 1)) * (int)((21 - g) / 11));
+			var g = year % 19;
+			var c = year / 100;
+			var h = (c - c / 4 - (8 * c + 13) / 25 + 19 * g + 15) % 30;
+			var i = h - h / 28 * (1 - h / 28 * (29 / (h + 1)) * ((21 - g) / 11));
 
-			var day = i - ((year + (int)(year / 4) + i + 2 - c + (int)(c / 4)) % 7) + 28;
+			var day = i - ((year + year / 4 + i + 2 - c + c / 4) % 7) + 28;
 			var month = 3;
 
 			if (day > 31)
