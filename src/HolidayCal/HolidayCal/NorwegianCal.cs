@@ -127,6 +127,10 @@ namespace HolidayCal
 			return GetEasterSunday(year).Subtract(TimeSpan.FromDays(7));
 		}
 
+		/// <summary>
+		/// Easter algorithm taken from http://bloggingabout.net/blogs/jschreuder/archive/2005/06/24/7019.aspx 
+		/// and modified to return DateTime instead of ref input parameters
+		/// </summary>
 		private DateTime GetEasterSunday(int year)
 		{
 			if (year < 1 || year > 9999) throw new ArgumentOutOfRangeException("year", year, "Must be between 0001 and 9999.");
