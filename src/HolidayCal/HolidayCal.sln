@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidayCal", "HolidayCal\HolidayCal.csproj", "{7842CD7E-0DD9-449B-B9F5-F82C821FBF81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidayCalTests", "HolidayCalTests\HolidayCalTests.csproj", "{B1BBA30D-2DDC-4DED-9C33-91B715E9BA56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CC7EA689-5CFE-4BC1-97C0-E66A0C6F9FED}"
+	ProjectSection(SolutionItems) = preProject
+		HolidayCal.vsmdi = HolidayCal.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = HolidayCal.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7842CD7E-0DD9-449B-B9F5-F82C821FBF81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7842CD7E-0DD9-449B-B9F5-F82C821FBF81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7842CD7E-0DD9-449B-B9F5-F82C821FBF81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7842CD7E-0DD9-449B-B9F5-F82C821FBF81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1BBA30D-2DDC-4DED-9C33-91B715E9BA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BBA30D-2DDC-4DED-9C33-91B715E9BA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BBA30D-2DDC-4DED-9C33-91B715E9BA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BBA30D-2DDC-4DED-9C33-91B715E9BA56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
