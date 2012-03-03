@@ -1,0 +1,3 @@
+HolidayCal is a .net library to look up specific dates to see if they are a holiday
+
+Only the Norwegian calender is currently implemented. Will implement other calendars if the need arise.
