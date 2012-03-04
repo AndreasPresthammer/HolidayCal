@@ -27,6 +27,7 @@ TestResults/
 /_ReSharper.*
 *.ReSharper.*
 *_ReSharper.*
+*.DotSettings.user
 # Packages #
 ############
 # it’s better to unpack these files and commit the raw source
