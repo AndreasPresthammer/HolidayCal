@@ -54,8 +54,11 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HolidayCalendarTestsBase.cs" />
+    <Compile Include="SampleHoliday.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="NorwegianHolidaysCalTests.cs" />
+    <Compile Include="NorwegianCalendarTests.cs" />
+    <Compile Include="TestSample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

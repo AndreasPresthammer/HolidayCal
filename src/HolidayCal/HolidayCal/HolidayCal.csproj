@@ -40,7 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NorwegianCal.cs" />
+    <Compile Include="CalendarBase.cs" />
+    <Compile Include="CommonHolidays.cs" />
+    <Compile Include="DateTimeExtensions.cs" />
+    <Compile Include="Holiday.cs" />
+    <Compile Include="IHolidayCalendar.cs" />
+    <Compile Include="NorwegianCalendar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
